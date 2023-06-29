@@ -51,4 +51,30 @@ ul {
     padding-bottom: 40px;
 }
 
+.bottomcontainer {
+    padding: 60px 30px;
+}
 
+.quotecontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 700px;
+}
+
+.author {
+    display: flex;
+    margin-left: 620px;
+    max-width: 700px;
+}
+
+.lowerbottomcontainer {
+    padding: 50px 100px;
+}
