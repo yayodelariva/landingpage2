@@ -1,0 +1,54 @@
+.header,
+.topcontainer,
+.footer {
+    background-color: #1F2937;
+}
+
+.bottomcontainer {
+    background-color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.topcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.topcontainer > img {
+    width: 300px;
+}
+
+.midcontainer {
+    padding: 60px 30px;
+}
+
+.windows {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
+
+.window > img {
+    width: 100px;
+}
+
+.midtext {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+
