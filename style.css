@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header,
 .topcontainer,
 .footer {
@@ -14,10 +20,17 @@
     gap: 700px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 ul {
     display: flex;
     gap: 16px;
     list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .topcontainer {
@@ -27,8 +40,26 @@ ul {
     padding: 30px;
 }
 
-.topcontainer > img {
-    width: 300px;
+.topcontainer > iframe {
+    width: 432px;
+    height: 243px;
+}
+
+.herocontainer {
+    max-width: 800px;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding-bottom: 10px;
+}
+
+.herosecondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 10px;
 }
 
 .midcontainer {
@@ -50,10 +81,14 @@ ul {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .bottomcontainer {
     padding: 60px 30px;
+    background-color: #E5E7EB;
 }
 
 .quotecontainer {
@@ -62,18 +97,26 @@ ul {
     flex-direction: column;
     
     
+    
 }
 
 .quote {
     display: flex;
     justify-content: flex-start;
-    max-width: 700px;
+    max-width: 1072px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
 }
 
 .author {
     display: flex;
     margin-left: 620px;
     max-width: 700px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .lowerbottomcontainer {
@@ -87,7 +130,7 @@ ul {
     justify-content: center;
     gap: 120px;
     align-items: center;
-    background-color: lightblue;
+    background-color: #3882f6;
     width: 800px;
     padding: 30px 70px;
 }
@@ -97,10 +140,21 @@ ul {
     height: 30px;
 }
 
+.calltoactionmaintext {
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.calltoactionsecondarytext {
+    color: #F9FAF8;
+}
+
 .footer {
     padding: 10px 0;
 }
 
 .footer > p {
     text-align: center;
+    color: #F9FAF8;
 }
