@@ -10,7 +10,8 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 700px;
 }
 
 ul {
@@ -77,4 +78,29 @@ ul {
 
 .lowerbottomcontainer {
     padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.bluecontainer {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    background-color: lightblue;
+    width: 800px;
+    padding: 30px 70px;
+}
+
+.bluecontainer > button {
+    width: 100px;
+    height: 30px;
+}
+
+.footer {
+    padding: 10px 0;
+}
+
+.footer > p {
+    text-align: center;
 }
