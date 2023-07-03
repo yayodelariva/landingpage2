@@ -54,7 +54,7 @@ ul > a {
     max-width: 800px;
 }
 
-.herocontainer > button {
+.herocontainer > a > button {
     padding: 10px;
     background-color: #72906C;
     border: none;
@@ -127,8 +127,8 @@ ul > a {
 
 .author {
     display: flex;
-    margin-left: 620px;
-    max-width: 700px;
+    margin-left: 780px;
+    max-width: 780px;
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -154,7 +154,8 @@ ul > a {
 
 .bluecontainer > a > button {
 
-    padding: 5px 30px;
+    width: 120px;
+    padding: 5px 20px;
     background-color: #72906C;
     border: 2px solid;
     border-color: #F9FAF8;
