@@ -7,7 +7,7 @@ body {
 .header,
 .topcontainer,
 .footer {
-    background-color: #1F2937;
+    background-color: #232E00;
 }
 
 .bottomcontainer {
@@ -28,6 +28,11 @@ body {
 ul {
     display: flex;
     gap: 16px;
+    
+}
+
+ul > a {
+    text-decoration: none;
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -47,6 +52,16 @@ ul {
 
 .herocontainer {
     max-width: 800px;
+}
+
+.herocontainer > button {
+    padding: 10px;
+    background-color: #72906C;
+    border: none;
+    border-color: #F9FAF8;
+    border-radius: 6px;
+    color: #F9FAF8;
+    
 }
 
 .heromain {
@@ -73,7 +88,7 @@ ul {
     text-align: center;
 }
 
-.window > img {
+.window > a > img {
     width: 100px;
 }
 
@@ -83,7 +98,7 @@ ul {
     padding-bottom: 40px;
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    color: #232E00;
 }
 
 .bottomcontainer {
@@ -128,16 +143,23 @@ ul {
 .bluecontainer {
     display: flex;
     justify-content: center;
-    gap: 120px;
+    gap: 160px;
     align-items: center;
-    background-color: #3882f6;
+    background-color:   #72906C;
     width: 800px;
     padding: 30px 70px;
+    border-radius: 10px;
+    
 }
 
-.bluecontainer > button {
-    width: 100px;
-    height: 30px;
+.bluecontainer > a > button {
+
+    padding: 5px 30px;
+    background-color: #72906C;
+    border: 2px solid;
+    border-color: #F9FAF8;
+    border-radius: 6px;
+    color: #F9FAF8;
 }
 
 .calltoactionmaintext {
